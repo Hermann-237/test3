@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.simo {
+  border-bottom: 2px solid #5bc0de;
+  height: 50px;
+  border-radius: 5px;
+}
+footer ul {
+  list-style-type: none !important;
+}
+
+.my-link {
+  color: #050505a8 !important;
+}
+
+.sideLeft {
+  background-color: #f4f5f68f;
+}
+.sideRight {
+  background-color: #f4f5f68f;
+}
+.right-ul {
+  list-style-type: none !important;
+}
+
+.singleverb-card {
+  width: 18rem;
+}
+.singlever-right {
+  height: 500vh;
+}
+
+.singlever-left {
+  height: 500vh;
+}
+
+.index-millieu {
+  background-color: #f4f5f68f;
+}
+.allBody {
+  min-height: 70vh;
+}
+
+.logo-1 {
+  width: 60px;
+}
+
+.fa {
+  cursor: pointer;
+  font-size: 15px;
+}
+.landing1 {
+  padding-top: 150px;
+  border: 2px solid red;
+
+  font-family: "Noto Serif JP", serif;
+  white-space: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  height: 50vh;
+  width: 50%;
+  padding: 150px 20px 0 20px !important;
+}
+.landing {
+  background-image: url("./img/landing4.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 50vh;
+  border: 2px solid red;
+  width: 40%;
+}
+.left-landing {
+  line-height: 60px;
+  margin: 0 100px;
+}
+.landing2 {
+  white-space: 20px;
+  letter-spacing: 2px;
+}
+
+.one {
+  width: 380px !important;
+}
